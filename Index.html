@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style type="text/css" media="all">
+  *{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+  }
+  body{
+    width:100%;
+    height:100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  .main{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    border:2px solid #42445A;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  label{
+    font-size: 18px;
+  }
+  input{
+    height:30px;
+    font-size: 18px;
+  }
+  .submit{
+    height:40px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+</style>
+<body>
+  <div class="main">
+    <h1>Candidate signup</h1>
+      <label for="Username">Username</label>
+      <input type="text" name="name" id="Username" value="" /><br>
+      <label for="rollno">Rollno</label>
+      <input type="number" name="rollno" id="rollno" value="" /><br>
+      <label for="passKey">Pass key</label>
+<input type="number" name="passKey" id="passKey" value="" />
+<input type="submit" class="submit">
+    
+  </div>
+  <script src="main.js" type="module"></script>
+</body>
+
+  </html>
